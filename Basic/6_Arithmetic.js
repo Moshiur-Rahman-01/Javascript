@@ -13,3 +13,11 @@ console.log(a); // 1st element onujayee datatype hobe...
 // test-4
 let b = 2 + 3 + "5";
 console.log(b); // 55
+
+// test-5
+let c = 16 + "Volvo";
+console.log(c);
+
+// test-6
+let d = "Volvo" + 16;
+console.log(d);
