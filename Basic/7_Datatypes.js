@@ -19,11 +19,7 @@ console.log(d);
 let color = "Yellow"; // Using double quotes:
 let lastName = ' Johnson'; // Using single quotes:
 console.log(color + lastName);
-// test-2
-let answer2 = "He is called 'Johnny'"; // Single quotes inside double quotes:
-console.log(answer2);
-let answer3 = 'He is called "Johnny"'; // Double quotes inside single quotes:
-console.log(answer3);
+
 
 
 //......................................................
