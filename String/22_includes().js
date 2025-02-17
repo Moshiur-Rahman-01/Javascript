@@ -1,0 +1,6 @@
+// boolean type er data return kore...
+let text = "Hello world, welcome to the universe.";
+console.log(text.includes("world"));
+
+// index 12 er pore khujbe...
+console.log(text.includes("world", 12));
