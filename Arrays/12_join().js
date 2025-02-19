@@ -1,0 +1,3 @@
+// array theke string e convert koree...
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits.join(", "))
