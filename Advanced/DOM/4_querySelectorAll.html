@@ -1,0 +1,29 @@
+<!-- css er moto kore element access kora jai... -->
+<!-- array er moto kore element er access dei -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementsByTagName</title>
+</head>
+
+<body>
+    <h1 class="name">Moshiur Rahman</h1>
+    <h1 class="name">Moshiur Rahman</h1>
+    <h1 class="name">Moshiur Rahman</h1>
+    <h1 class="name">Moshiur Rahman</h1>
+
+    <script>
+        // index number or loop use korte hobee...
+        const textColor = document.querySelectorAll("h1.name");
+        textColor[0].innerHTML = "Hello World!";
+        textColor[1].style.color = 'red';
+        textColor[2].style.backgroundColor = 'gray';
+        textColor[3].style.textTransform = 'uppercase';
+
+    </script>
+</body>
+
+</html>

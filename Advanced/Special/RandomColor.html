@@ -1,0 +1,8 @@
+<button id="changeColorBtn">Change Background</button>
+
+<script>
+    document.getElementById("changeColorBtn").addEventListener("click", function () {
+        let randomColor = "#" + Math.floor(Math.random() * 16777215).toString(16); // র‍্যান্ডম কালার জেনারেট
+        document.body.style.backgroundColor = randomColor; // ব্যাকগ্রাউন্ড কালার সেট
+    });
+</script>
