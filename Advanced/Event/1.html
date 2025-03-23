@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <h1>JavaScript HTML Events</h1>
+    <h2>The onclick Attribute</h2>
+
+    <!-- click korle date dekhabe -->
+    <button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+    <p id="demo"></p>
+
+
+    <!-- click korle oi button ei date dekhabe -->
+    <button onclick="this.innerHTML=Date()">The time is?</button>
+</body>
+</html>

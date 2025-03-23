@@ -1,7 +1,7 @@
 const car = { type: "Fiat", model: "500", color: "white" };
 console.log(car);
 
-// Create an Object
+// Test-2
 const person = {
     firstName: "John",
     lastName: "Doe",
@@ -18,7 +18,8 @@ console.log(result);
 const person2 = {
     firstName: "John",
     lastName: "Doe",
-    age: 50, eyeColor: "blue"
+    age: 50, 
+    eyeColor: "blue"
 }
 // Create a copy
 const x = person2;

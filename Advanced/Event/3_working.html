@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <h1>JavaScript HTML Events</h1>
+    <h2>The onclick Attribute</h2>
+
+    <p>Click the button to display the date.</p>
+    <button id="btn">The time is?</button>
+
+    <p id="demo"></p>
+
+    <script>
+        document.getElementById("btn").addEventListener("click",
+            (event) => {
+                document.getElementById("demo").innerHTML = "Moshiur";
+            }
+        )
+        
+    </script>
+</body>
+
+</html>
